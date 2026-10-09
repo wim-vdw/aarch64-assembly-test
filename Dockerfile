@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM ubuntu:26.04 AS build
+FROM ubuntu:26.04 AS build
 
 RUN apt-get update && apt-get install -y --no-install-recommends binutils-aarch64-linux-gnu
 
